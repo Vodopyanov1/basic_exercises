@@ -73,7 +73,7 @@ def calc_any_groups():
             if school_students[lists].count(dicts) > max_quantity:
                  max_quantity = school_students[lists].count(dicts)
                  string_for_name = dicts.values()
-   print('Самое частое имя в классе',(lists + 1),':',' '.join(string_for_name))
+        print('Самое частое имя в классе',(lists + 1),':',' '.join(string_for_name))
 
 school_students = [
     [  # это – первый класс
@@ -81,7 +81,7 @@ school_students = [
         {'first_name': 'Вася'},
     ],
     [  # это – второй класс
- {'first_name': 'Маша'},
+        {'first_name': 'Маша'},
         {'first_name': 'Маша'},
         {'first_name': 'Оля'},
     ],[  # это – третий класс
